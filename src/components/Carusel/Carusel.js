@@ -24,7 +24,7 @@ const Carusel = () => {
         <h1 className="title">Testimonials</h1>
         <div className="navigation-wrapper wrapper">
           <div ref={sliderRef} className="keen-slider">
-            <div className="slide keen-slider__slide number-slide1">
+            <div className="slide keen-slider__slide number-slid1">
               <div className="signs">
                 <img src={sign} alt="sign" />
                 <img src={sign} alt="sign" />
@@ -41,7 +41,7 @@ const Carusel = () => {
                 <h5>Client</h5>
               </div>
             </div>
-            <div className="slide keen-slider__slide number-slide1">
+            <div className="slide keen-slider__slide number-slid1">
               <div className="signs">
                 <img src={sign} alt="sign" />
                 <img src={sign} alt="sign" />

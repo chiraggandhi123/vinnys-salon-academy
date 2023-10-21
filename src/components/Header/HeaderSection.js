@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // images
 import shape from "../../assets/shape.png";
 
-import headerLaout from "../../assets/header-layaout.png";
+import headerLaout from "../../assets/header-layout-1.png";
 import mobileLayout from "../../assets/header/mobile-png.png";
 
 import AOS from "aos";
@@ -21,17 +21,16 @@ const HeaderSection = () => {
         <div className="left" data-aos="fade-up">
           <div>
             <h1>
-              <div>Be Different</div>
-              <div>with Our Nail</div>
-              <div>Design</div>
+              <div>Your Beauty,</div>
+              <div>Our Passion</div>
+              {/* <div>Salon & Academy</div> */}
             </h1>
             <div className="line"></div>
             <a className="read-more" href="#">
               Read More
             </a>
             <p>
-              Our qualified team provides a full range of nail design services
-              to satisfy even the most demanding clients
+"Our expert team offers a comprehensive range of beauty services, including makeup, nail, and hair care, tailored to meet the highest standards of our discerning clientele."
             </p>
           </div>
         </div>

@@ -23,18 +23,16 @@ const Category = () => {
         <div className="row">
           <div className="col" data-aos="flip-left">
             <img src={icon1} alt="icon" />
-            <h4>Manicure</h4>
+            <h4>MakeUp</h4>
             <p>
-              Our maincure treatment stimulate nail growth and soften dry, dul
-              skin.
+            "Elevate your natural beauty, leaving skin radiant and flawless"
             </p>
           </div>
           <div className="col" data-aos="flip-left">
             <img src={icon2} alt="icon" />
-            <h4>Pedicure</h4>
+            <h4>Hairs</h4>
             <p>
-              Pedicure services provide full restoration for your nails with
-              extra polishing.
+            "For hair that radiates with health, beauty, and vibrancy, choose our services"
             </p>
           </div>
         </div>

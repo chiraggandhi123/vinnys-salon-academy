@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import leftBg from "../../assets/process/left-img.png";
-import bigLogo from "../../assets/big-logo.png";
+import bigLogo from "../../assets/big-logo-1.png";
 import mobileLogo from "../../assets/process/mobile.png";
 
 import AOS from "aos";

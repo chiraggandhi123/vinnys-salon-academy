@@ -23,7 +23,7 @@ const HomePage = ({ openBar, setOpenBar, openoScial, setOpenSocial }) => {
       <HeaderSection />
       <About />
       <Category />
-      <Proccess />
+      {/* <Proccess /> */}
       <Expert />
       <Carusel />
       <Pricing />

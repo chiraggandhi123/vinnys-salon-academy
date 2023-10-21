@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Price from "./Price";
 // images
-import bigLogo from "../../assets/big-logo.png";
+import bigLogo from "../../assets/big-logo-1.png";
 import frame1 from "../../assets/Pricing/frame1.png";
 import frame2 from "../../assets/Pricing/frame2.png";
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import expertImg from "../../assets/expert/expert.png";
-import bigLogo from "../../assets/big-logo.png";
+import bigLogo from "../../assets/big-logo-1.png";
 import frame from "../../assets/expert/frame.png";
 
 import AOS from "aos";
@@ -48,3 +48,4 @@ const Expert = () => {
 };
 
 export default Expert;
+

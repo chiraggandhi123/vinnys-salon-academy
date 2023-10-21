@@ -1,6 +1,6 @@
 import React from "react";
 // logo
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo-1.png";
 import TopNav from "./TopNav";
 
 const MainNav = ({ openBar, setOpenBar, openoScial, setOpenSocial }) => {

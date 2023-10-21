@@ -14,19 +14,19 @@ const Galery = () => {
     <div className="galery" data-aos="zoom-out-down">
       <h2 className="title">Galery of our work</h2>
       <img className="vector" src={vector} alt="vector" />
-      <div class="grid-container">
-        <div class="item grid-item little1"></div>
-        <div class="item2 grid-item little1"></div>
-        <div class="item3 grid-item big"></div>
-        <div class="item4 grid-item little2"></div>
-        <div class="item5 grid-item little2"></div>
-        <div class="item6 grid-item big"></div>
-        <div class="item8 grid-item little1"></div>
-        <div class="item7 grid-item little1"></div>
-        <div class="item9 grid-item big"></div>
-        <div class="item10 grid-item big"></div>
-        <div class="item11 grid-item big"></div>
-        <div class="item12 grid-item big"></div>
+      <div className="grid-container">
+        <div className="item grid-item little1"></div>
+        <div className="item2 grid-item little1"></div>
+        <div className="item3 grid-item big"></div>
+        <div className="item4 grid-item little2"></div>
+        <div className="item5 grid-item little2"></div>
+        <div className="item6 grid-item big"></div>
+        <div className="item8 grid-item little1"></div>
+        <div className="item7 grid-item little1"></div>
+        <div className="item9 grid-item big"></div>
+        <div className="item10 grid-item big"></div>
+        <div className="item11 grid-item big"></div>
+        <div className="item12 grid-item big"></div>
       </div>
     </div>
   );

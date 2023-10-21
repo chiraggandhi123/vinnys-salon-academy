@@ -19,7 +19,7 @@ const Contact = () => {
           marginheight="0"
           marginwidth="0"
           id="gmap_canvas"
-          src="https://maps.google.com/maps?width=520&amp;height=535&amp;hl=en&amp;q=Amir%20Temur%20Tashkent+(mbm)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d938.8410775902081!2d77.32186727378597!3d28.345856057734032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697743749020!5m2!1sen!2sin"
         ></iframe>
         <a href="https://www.counters-free.net/">
           https://www.counters-free.net

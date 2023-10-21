@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // images
 import topShape from "../../assets/corner-top.png";
 import bottomShape from "../../assets/corner-bottom.png";
-import bigLogo from "../../assets/big-logo.png";
+import bigLogo from "../../assets/big-logo-1.png";
 import girl from "../../assets/girl.png";
 import girlMobile from "../../assets/about/about-mobile.png";
 // animation
@@ -32,15 +32,14 @@ const About = () => {
             </div>
           </h2>
           <h3>
-            Our salon aims to deliver the best nail design experience and
+            Our salon aims to deliver the best salon experience and
             top-notch customer service.
           </h3>
           <p>
-            We use all-natural, organic body products, hard-to-find polish
-            brands and colors, iPads at every seat, and drink menu featuring
-            fresh pressed juices and hand-crafted coffees
+
+Clients choose us because we offer a unique blend of expertise, personalized service, and a commitment to quality. Our experienced team uses top-notch products in a clean and safe environment to ensure your satisfaction. We aim to create a relaxing and enjoyable atmosphere where you can indulge in affordable luxury. Our track record of repeat clients speaks to the trust and confidence our patrons have in our services. When you choose our salon, you're choosing an exceptional beauty experience that caters to your individual needs and style.
           </p>
-          <a href="#">Read more</a>
+          {/* <a href="#">Read more</a> */}
         </div>
       </div>
       <img className="top-shape" src={topShape} alt="shape" />

@@ -5,7 +5,7 @@ import google from "../../assets/icons/google.svg";
 import twitter from "../../assets/icons/twitter.svg";
 import youtube from "../../assets/icons/youtube.svg";
 import pinterest from "../../assets/icons/pinterest.svg";
-import logo from "../../assets/Footer/logo.png";
+import logo from "../../assets/Footer/logo-1.png";
 
 const BottomFooter = () => {
   return (
