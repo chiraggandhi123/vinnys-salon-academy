@@ -3,7 +3,7 @@
   height: 106rem;
   min-height: 106rem;
   background: #f4e6f0c5;
-  z-index: -3;
+  // z-index: -3;
   position: relative;
   overflow: hidden;
 
@@ -22,7 +22,9 @@
     top: 0;
     left: 0;
   }
-
+  .keen-slider{
+    height: 100%;
+  }
   .container {
     display: flex;
     align-items: center;

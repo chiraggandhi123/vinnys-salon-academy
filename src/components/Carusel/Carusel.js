@@ -1,6 +1,7 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import './index.scss';
 // images
 import sign from "../../assets/testimonials/sign.png";
 import person from "../../assets/testimonials/person.png";
@@ -8,7 +9,7 @@ import shapeLeft from "../../assets/testimonials/left-shape.png";
 import shapeRight from "../../assets/testimonials/right-shape.png";
 
 const Carusel = () => {
-  const [currentSlide, setCurrentSlide] = React.useState(0);
+const [currentSlide, setCurrentSlide] = React.useState(0);
   const [sliderRef, slider] = useKeenSlider({
     initial: 0,
     slideChanged(s) {
@@ -24,7 +25,7 @@ const Carusel = () => {
         <h1 className="title">Testimonials</h1>
         <div className="navigation-wrapper wrapper">
           <div ref={sliderRef} className="keen-slider">
-            <div className="slide keen-slider__slide number-slid1">
+            <div className="slide keen-slider__slide number-slider1">
               <div className="signs">
                 <img src={sign} alt="sign" />
                 <img src={sign} alt="sign" />
@@ -41,7 +42,7 @@ const Carusel = () => {
                 <h5>Client</h5>
               </div>
             </div>
-            <div className="slide keen-slider__slide number-slid1">
+            <div className="slide keen-slider__slide number-slider2">
               <div className="signs">
                 <img src={sign} alt="sign" />
                 <img src={sign} alt="sign" />
