@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import expertImg from "../../assets/expert/saksham.png";
+import expertImg2 from "../../assets/expert/expert2.png";
+
+
 import bigLogo from "../../assets/big-logo-1.png";
 import frame from "../../assets/expert/frame.png";
 
@@ -8,85 +11,6 @@ import AOS from "aos";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import './index.scss';
-
-//  const Expert = () => {
-//   useEffect(() => {
-//     AOS.init({
-//       duration: 2000,
-//     });
-//   }, []);
-//   const [sliderRef, instanceRef] = useKeenSlider({
-//     loop:true
-//   }
-//   )
-
-//   return (
-//     <div className="expert">
-//       <img src={bigLogo} alt="logo" className="big-logo" />
-//       <img className="frame" src={frame} alt="frame" />
-//       <div ref={sliderRef} className="keen-slider">
-//         <div className="container keen-slider__slide number-slide1">
-//           <a href="#" className="view">
-//             View all team
-//           </a>
-//           <div className="left" data-aos="zoom-out-right">
-//             <div className="card">
-//               <div className="card-header">
-//                 <img src={expertImg} alt="expert" />
-//               </div>
-//               <div className="card-content">
-//                 <h3>Mary Lucas</h3>
-//                 <h4>Manicurist</h4>
-//                 <a href="#">info@demolink</a>
-//               </div>
-//             </div>
-//           </div>
-//           <div className="right" data-aos="zoom-out-left">
-//             <div className="content">
-//               <h1>Meet Our Expert</h1>
-//               <p>
-//                 We employ the best manicurists and pedicurists in the industry. We
-//                 also educate our own award-winning specialists through constant
-//                 training. Here are the most prominent talents of our team who make
-//                 your dreams come true
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="container keen-slider__slide number-slide2">
-//           <a href="#" className="view">
-//             View all team
-//           </a>
-//           <div className="left" data-aos="zoom-out-right">
-//             <div className="card">
-//               <div className="card-header">
-//                 <img src={expertImg} alt="expert" />
-//               </div>
-//               <div className="card-content">
-//                 <h3>Mary Lucas</h3>
-//                 <h4>Manicurist</h4>
-//                 <a href="#">info@demolink</a>
-//               </div>
-//             </div>
-//           </div>
-//           <div className="right" data-aos="zoom-out-left">
-//             <div className="content">
-//               <h1>Meet Our Expert</h1>
-//               <p>
-//                 We employ the best manicurists and pedicurists in the industry. We
-//                 also educate our own award-winning specialists through constant
-//                 training. Here are the most prominent talents of our team who make
-//                 your dreams come true
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Expert;
 
 export default () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -132,7 +56,7 @@ console.log('instance', instanceRef);
       <img src={bigLogo} alt="logo" className="big-logo" />
     <img className="frame" src={frame} alt="frame" />
         <div ref={sliderRef} className="keen-slider">
-        <div className="container keen-slider__slide number-slide1">
+        {/* <div className="container keen-slider__slide number-slide1">
            <a href="#" className="view">
              View all team
            </a>
@@ -159,20 +83,20 @@ console.log('instance', instanceRef);
                </p>
              </div>
            </div>
-         </div>
+         </div> */}
          <div className="container keen-slider__slide number-slide2">
-           <a href="#" className="view">
+           {/* <a href="#" className="view">
              View all team
-           </a>
+           </a> */}
            <div className="left" data-aos="zoom-out-right">
              <div className="card">
                <div className="card-header">
-                 <img src={expertImg} alt="expert" />
+                 <img src={expertImg2} alt="expert" />
                </div>
                <div className="card-content">
-                 <h3>Mary Lucas</h3>
-                 <h4>Manicurist</h4>
-                 <a href="#">info@demolink</a>
+                 <h3>Veena Gandhi</h3>
+                 <h4>MakeUp Artist</h4>
+                 {/* <a href="#">info@demolink</a> */}
                </div>
              </div>
            </div>
@@ -180,27 +104,24 @@ console.log('instance', instanceRef);
              <div className="content">
                <h1>Meet Our Expert</h1>
                <p>
-                 We employ the best manicurists and pedicurists in the industry. We
-                 also educate our own award-winning specialists through constant
-                 training. Here are the most prominent talents of our team who make
-                 your dreams come true
+               A passionate makeup artist specializing in bridal glam, event makeup, and editorial looks. I bring a personalized touch, versatile styles, and top-quality products to make you feel and look your best. Let's collaborate on creating a stunning, customized makeup experience just for you! 💋✨
                </p>
              </div>
            </div>
          </div>
          <div className="container keen-slider__slide number-slide3">
-           <a href="#" className="view">
+           {/* <a href="#" className="view">
              View all team
-           </a>
+           </a> */}
            <div className="left" data-aos="zoom-out-right">
              <div className="card">
                <div className="card-header">
                  <img src={expertImg} alt="expert" />
                </div>
                <div className="card-content">
-                 <h3>Mary Lucas</h3>
-                 <h4>Manicurist</h4>
-                 <a href="#">info@demolink</a>
+                 <h3>Saksham Gandhi</h3>
+                 <h4>Nail Artist</h4>
+                 {/* <a href="#"></a> */}
                </div>
              </div>
            </div>
@@ -208,10 +129,7 @@ console.log('instance', instanceRef);
              <div className="content">
                <h1>Meet Our Expert</h1>
                <p>
-                 We employ the best manicurists and pedicurists in the industry. We
-                 also educate our own award-winning specialists through constant
-                 training. Here are the most prominent talents of our team who make
-                 your dreams come true
+               Your nails are a canvas, and I am the painter. I understand that every individual has a unique style and personality. Whether you're looking for understated sophistication or bold and vibrant designs, I will work closely with you to create personalized nail art that perfectly suits your taste.
                </p>
              </div>
            </div>

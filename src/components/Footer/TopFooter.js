@@ -14,28 +14,15 @@ const TopFooter = () => {
             <h3>About</h3>
             <span></span>
             <p>
-              Allamaroza Nail Salon has been offering an extensive range of nail
+              Vinny's Salon & Academy has been offering an extensive range of beauty
               services and skin treatments since 1999
             </p>
-          </div>
-          <div className="item">
-            <h3>Recent Photos</h3>
-            <span></span>
-            <h4>
-              Top 5 Reasons to Visit the Nearest Nail Salon
-              <p>June 10, 2018 / 3 Comments</p>
-            </h4>
-            <h4>
-              One Day from the Life of a Nail Artist
-              <p>June 12, 2018 / 3 Comments</p>
-            </h4>
           </div>
           <div className="item">
             <h3>Opening Hours</h3>
             <span></span>
             <p>
-              Mon-Fri: 9 am - 6 pm <br /> Saturday: 9 am - 4 pm <br /> Sunday:
-              Closed
+              Mon-Sun: 10 am - 6 pm 
             </p>
           </div>
           <div className="item">
@@ -43,15 +30,15 @@ const TopFooter = () => {
             <span></span>
             <div className="loc">
               <img src={footer1} alt="icon" />
-              <h4>Washington, USA Richmon Street</h4>
+              <h4>FCA-190, EAST CHAWLA COLONY, BALLABGARH</h4>
             </div>
             <div className="loc">
               <img src={footer2} alt="icon" />
-              <h4>(90) 9497987</h4>
+              <h4>9873571752, 7838636183 </h4>
             </div>
             <div className="loc">
               <img src={footer3} alt="icon" />
-              <h4>info@demolink.org</h4>
+              <h4>veenagandhi17@gmail.com</h4>
             </div>
           </div>
         </div>

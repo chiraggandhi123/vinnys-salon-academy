@@ -8,6 +8,16 @@ import phone from "../../assets/Contact/phone.svg";
 import type from "../../assets/Contact/type.svg";
 
 const Contact = () => {
+  function whatsapp(){
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+    console.log('name', name, email, phone, message);
+    if(name && email && phone && message){
+      window.location.href = `https://wa.me/7838636183?text=${message}%0a`
+    }
+  }
   return (
     <div className="contact" id="contact">
       <div className="left">
@@ -34,29 +44,31 @@ const Contact = () => {
           <br />
           touch with us. We will answer you as soon as possible!
         </p>
-        <form>
+        <div className="form">
           <div className="input">
             <img src={man} alt="man" />
-            <input type="text" placeholder="Your Name" />
+            <input id="name" type="text" placeholder="Your Name" />
           </div>
           <div className="input">
             <img src={mail} alt="mail" />
-            <input type="email" placeholder="Your Email" />
+            <input id="email" type="email" placeholder="Your Email" />
           </div>
           <div className="input">
             <img src={phone} alt="phone" />
-            <input type="number" placeholder="Your Phone" />
+            <input id="phone" type="number" placeholder="Your Phone" />
           </div>
           <div className="input">
             <img className="type" src={type} alt="type" />
-            <textarea type="number" placeholder="Your Messasge"></textarea>
+            <textarea id="message" type="number" placeholder="Your Messasge"></textarea>
           </div>
           <div className="input">
-            <button type="submit" type="number">
+            <button onClick={()=>{
+              whatsapp();
+            }}>
               Submit
             </button>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const Category = () => {
   return (
     <div className="category">
       <div className="left">
-        <img src={shape} className="shape-bg" />
+        <img src={shape} alt="shape" className="shape-bg" />
         <div className="row">
           <div className="col" data-aos="flip-left">
             <img src={icon1} alt="icon" />

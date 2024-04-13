@@ -13,7 +13,13 @@ const Pricing = () => {
       duration: 2000,
     });
   }, []);
-
+  const partyMakeup = [{
+    a: 'Basic Party Makeup', b: 1500
+  },{
+    a: 'HD Party Makeup', b: 2000
+  },{
+    a: 'Glossy AirBrush Party Makeup', b: 3000
+  }]
   return (
     <div className="pricing" id="pricing">
       <img src={bigLogo} alt="bg" className="big-logo" />
@@ -31,11 +37,10 @@ const Pricing = () => {
         <div className="bottom">
           <div className="left" data-aos="fade-right">
             <Price
-              title="Manicure"
-              subtitle="60 - 100 Minute Sessions"
-              price="$50.00"
+              title="Party Makeup"
+              content={[...partyMakeup]}
             />
-            <Price
+            {/* <Price
               data-aos="fade-left"
               title="Manicure"
               subtitle="60 - 100 Minute Sessions"
@@ -58,10 +63,10 @@ const Pricing = () => {
               title="Manicure"
               subtitle="60 - 100 Minute Sessions"
               price="$50.00"
-            />
+            /> */}
           </div>
           <div className="right" data-aos="fade-left">
-            <Price
+            {/* <Price
               data-aos="fade-right"
               title="Manicure"
               subtitle="60 - 100 Minute Sessions"
@@ -84,7 +89,7 @@ const Pricing = () => {
               title="Manicure"
               subtitle="60 - 100 Minute Sessions"
               price="$50.00"
-            />
+            /> */}
           </div>
         </div>
       </div>

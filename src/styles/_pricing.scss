@@ -6,7 +6,18 @@
   background: rgba(143, 3, 101, 0.11);
   position: relative;
   overflow: hidden;
+  .sec{
+    // display: flex;
+    .btn{
+      width: 100px;
+      height: 30px;
+      padding: 2px;
+      background-color: red;
+    }
+    .text{
 
+    }
+  }
   .big-logo {
     position: absolute;
     top: 50%;

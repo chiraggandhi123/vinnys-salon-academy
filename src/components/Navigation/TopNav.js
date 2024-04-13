@@ -21,10 +21,10 @@ const TopNav = ({ openoScial, setOpenSocial }) => {
       <div className="container">
         <div className="first-description">
           <h4 className="call">
-            Free Call: <span>9873734959</span>, <span>7838636183 </span>
+            Free Call: <span>9873571752</span>, <span>7838636183 </span>
           </h4>
           <h4 className="opening">
-            Opening Hours: <span>Mn-Fr: 10 am-8 pm</span>
+            Opening Hours: <span>Mon-Sub: 10 am - 6 pm</span>
           </h4>
         </div>
       <div className="last-description">

@@ -17,7 +17,7 @@ const BottomFooter = () => {
         <div className="title">
           <p>2020 All Rights Reserved Privacy Policy</p>
         </div>
-        <ul className="icons">
+        {/* <ul className="icons">
           <li>
             <a href="#">
               <img src={facebook} alt="facebook" />
@@ -43,7 +43,7 @@ const BottomFooter = () => {
               <img src={pinterest} alt="facebook" />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
