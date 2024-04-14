@@ -29,7 +29,7 @@ const Contact = () => {
           marginheight="0"
           marginwidth="0"
           id="gmap_canvas"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d938.8410775902081!2d77.32186727378597!3d28.345856057734032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697743749020!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.41029466687!2d77.31701708250324!3d28.346442634692124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdb854c67e113%3A0x4251ad1bb26b6230!2sVinny&#39;s%20Attraction%20Beauty%20Salon!5e0!3m2!1sen!2sin!4v1713075319898!5m2!1sen!2sin"
         ></iframe>
         <a href="https://www.counters-free.net/">
           https://www.counters-free.net
